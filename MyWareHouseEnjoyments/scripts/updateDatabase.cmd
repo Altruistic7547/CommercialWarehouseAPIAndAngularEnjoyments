@@ -1,0 +1,2 @@
+::Usage: UpdateDatebase <migrationName> (where <migrationName> is required only when reverting to an older migration)
+@dotnet ef database update --project ../src/Infrastructure --startup-project ../src/WebApi %*
